@@ -14,7 +14,7 @@ def overall():
     bgindex = random.randint(0,len(bglist)-1)
     used.append(bgindex)
     background = bglist[bgindex]
-    print(used)
+    #print(used)
     #background image 1 is the first stopsign image stopsign1
     back1_img = cv2.imread(background, cv2.IMREAD_UNCHANGED)
 
@@ -55,9 +55,10 @@ def overall():
     else:
         print("keep driving")
 play = True
-while play = True:
-    again = input("Do you want to see another image? (y/n)")
+while play == True:
+    again = input("Do you want to test an image? (y/n)")
     if again == "y":
         overall()
     else:
         print("thanks for playing")
+        break
