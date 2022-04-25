@@ -4,7 +4,6 @@
 
 #this installs opencv
 #!pip install opencv-python
-# this is a test comment
 import cv2
 import numpy as np
 import random 
